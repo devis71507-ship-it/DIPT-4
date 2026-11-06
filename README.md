@@ -77,6 +77,9 @@ plt.imshow(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))  # Convert BGR to RGB for cor
 plt.title("Original Image")  
 plt.axis('off')
 ```
+<img width="272" height="365" alt="image" src="https://github.com/user-attachments/assets/27857c28-9cd2-46a8-ac1b-3fde035261bd" />
+
+
 ```
 # Step 2: Image Translation
 tx, ty = 100, 50  # Translation factors (shift by 100 pixels horizontally and 50 vertically)
@@ -88,6 +91,8 @@ plt.imshow(cv2.cvtColor(translated_image, cv2.COLOR_BGR2RGB))  # Display the tra
 plt.title("Translated Image")  
 plt.axis('off')
 ```
+<img width="268" height="357" alt="image" src="https://github.com/user-attachments/assets/309d2d1a-d28d-4120-96b3-d9d529921334" />
+
 ## Image Scaling
 - Original image is displayed
 - Downscaled image (0.5×) is displayed
@@ -103,6 +108,8 @@ plt.imshow(cv2.cvtColor(scaled_image, cv2.COLOR_BGR2RGB))  # Display the scaled 
 plt.title("Scaled Image")  # Set title
 plt.axis('off')
 ```
+
+<img width="467" height="307" alt="image" src="https://github.com/user-attachments/assets/383cefdb-8665-4f6e-8eff-4a194fa21df1" />
 
 ## Image Shearing
 - Original image is displayed
@@ -121,6 +128,7 @@ plt.title("Sheared Image")  # Set title
 plt.axis('off')
 
 ```
+<img width="298" height="360" alt="image" src="https://github.com/user-attachments/assets/641f40d9-ccfd-47cd-ab89-d15fbd058cbd" />
 
 ## Image Reflection
 - Original image is displayed
@@ -136,6 +144,8 @@ plt.imshow(cv2.cvtColor(reflected_image, cv2.COLOR_BGR2RGB))  # Display the refl
 plt.title("Reflected Image")  # Set title
 plt.axis('off')
 ```
+<img width="291" height="357" alt="image" src="https://github.com/user-attachments/assets/ac6e6e79-768b-42ce-bd90-86e5c08b8bfd" />
+
 
 ## Image Rotation
 - Original image is displayed
@@ -154,6 +164,7 @@ plt.imshow(cv2.cvtColor(rotated_image, cv2.COLOR_BGR2RGB))  # Display the rotate
 plt.title("Rotated Image")  # Set title
 plt.axis('off')
 ```
+<img width="272" height="368" alt="image" src="https://github.com/user-attachments/assets/7bed08b8-a654-4a08-b4bb-180f00db3b32" />
 
 ## Cropped image
 ```
@@ -166,6 +177,7 @@ plt.imshow(cv2.cvtColor(cropped_image, cv2.COLOR_BGR2RGB))  # Display the croppe
 plt.title("Cropped Image")  # Set title
 plt.axis('off')
 ```
+<img width="416" height="363" alt="image" src="https://github.com/user-attachments/assets/86785cc3-ee89-47c8-828f-9dc2859aca9b" />
 
 ## Result
 Thus, various geometric transformations such as translation, scaling, shearing, reflection, and rotation are successfully performed using OpenCV. These transformations demonstrate how images can be spatially manipulated for different computer vision applications.
